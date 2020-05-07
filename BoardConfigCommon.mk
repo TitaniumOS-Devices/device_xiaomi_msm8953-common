@@ -38,6 +38,12 @@ TARGET_USES_64_BIT_BINDER := true
 # Build
 BUILD_BROKEN_DUP_RULES := true
 
+#Battery
+HEALTHD_USE_BATTERY_INFO := true
+
+#Pixel Charging animation
+USE_PIXEL_CHARGER_IMAGES=true
+
 # Kernel
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.usbconfigfs=true
